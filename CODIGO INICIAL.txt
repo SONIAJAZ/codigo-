@@ -38,7 +38,7 @@ Algoritmo PROYECTOXWOMAN
 		3: //espacio de Sonia
 	Escribir "Escribe dos numeros"
 	leer a,b
-	x = 0
+	d = 0
 	Mientras x <> 6 hacer
 		escribir "Elige una opcion "
 		Escribir "1 = suma"
