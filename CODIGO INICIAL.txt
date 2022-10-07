@@ -19,6 +19,21 @@ Algoritmo PROYECTOXWOMAN
 				b<-c;
 			FinMientras
 		2: //espacio de Melanie
+        Definir a,b,c,n Como Entero
+	definir x como cadena 
+	Escribir "Dame un numero";
+	leer n
+	Escribir "dame un signo";
+	leer x;
+	para a=n hasta 1 Con Paso -1
+		para b=1 hasta a con paso 1
+			Escribir " " Sin Saltar
+		FinPara
+		para c=a hasta n Con Paso 1 Hacer
+			Escribir x," " Sin Saltar
+		FinPara
+		Escribir ""
+	FinPara
 			
 		3: //espacio de Sonia
 	Escribir "Escribe dos numeros"
