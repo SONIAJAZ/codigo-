@@ -47,9 +47,9 @@ Algoritmo PROYECTOXWOMAN
 		Escribir "4 = division"
 		Escribir "5 = potencia"
 		Escribir "6 = salir"
-		leer x
+		leer d
 		
-		segun x
+		segun d
 			1:
 				Escribir "La suma de ",a," + ",b," = ",a+b
 			2:
@@ -64,7 +64,7 @@ Algoritmo PROYECTOXWOMAN
 			6:  Escribir "estas saliendo de la aplicacion"
 				
 			De Otro Modo:
-				x=6
+				d=6
 		FinSegun
 	FinMientras
 FinAlgoritmo
